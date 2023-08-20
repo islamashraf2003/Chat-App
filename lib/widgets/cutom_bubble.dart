@@ -12,6 +12,7 @@ class ChatBubble extends StatelessWidget {
         margin: const EdgeInsets.only(
           left: 10,
           top: 12,
+          right: 80,
         ),
         padding: const EdgeInsets.only(left: 20, right: 45, top: 5, bottom: 5),
         decoration: const BoxDecoration(
