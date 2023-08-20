@@ -73,7 +73,7 @@ class ChatBubbleForFriend extends StatelessWidget {
               message.text,
               style: const TextStyle(
                 color: Colors.white,
-                fontSize: 19,
+                fontSize: 18,
               ),
             ),
           ],
