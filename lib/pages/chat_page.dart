@@ -59,7 +59,10 @@ class ChatPage extends StatelessWidget {
                             ? ChatBubble(
                                 message: messageList[index],
                               )
-                            : ChatBubbleForFriend(message: messageList[index]);
+                            : ChatBubbleForFriend(
+                                message: messageList[index],
+                                email: messageList[index].id,
+                              );
                       }),
                 ),
                 Padding(
